@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+a{
+    text-decoration: none;
+    color: #354548;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-avatar{
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+}
+.sidebar-name{
+    font-family: 'Kaushan Script', cursive;
+    margin: 20px 0px;
+    font-size: 1.7rem;
+}
+.sidebar-name span{
+    color: #00F260;
+}
+.sidebar-item{
+    margin-bottom: 6px;
+    padding-top: 6px;
+    height: 40px;
+    font-size: 1.05rem;
+    border-radius: 30px;
+}
+.sidebar-title{
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+.sidebar-icon{
+    width: 25px;
+    height: 25px;
+    color: #00F260;
+    margin-top: -5px;
+}
+.sidebar-contact{
+    background-color: #dbdddf;
+    padding: 2px 0px;
+    margin: 20px -15px 0px;
+}
+.sidebar-email{
+    background-image: linear-gradient(to right bottom,#00F260,#0575E6);
+    margin: 15px 25px 0px;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    transition: all 3s linear;
+}
+.sidebar-email:hover{
+    transform: scale(1.1);
+}
+.sidebar-resume:hover,
+.sidebar-github:hover{
+    background-color: #f1f1f2;
+    color: #000;
+}
