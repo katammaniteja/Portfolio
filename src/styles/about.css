@@ -1,0 +1,39 @@
+.about{
+    padding: 10px 20px;
+    margin: 0px -35px;
+}
+.about-intro{
+    font-size: 1.1rem;
+    padding: 20px;
+}
+.about-container{
+    background-color: #dbdddf;
+    padding: 20px;
+}
+.about-heading{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #354358;
+}
+.skill-card{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.skill-card-icon{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+.skill-card-body{
+    margin-left: 15px;
+}
+.skill-card-content{
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6e7e91;
+}
