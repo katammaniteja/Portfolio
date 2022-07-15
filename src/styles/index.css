@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&family=Roboto&display=swap');@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
 
 body{
     background-image: linear-gradient(to right bottom,#00F260,#0575E6);
     background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -26,6 +28,7 @@ body{
     border-radius: 20px;
     padding: 25px 15px;
     box-shadow: 0px 0px 10px black;
+    height: 100%;
 }
 
 @media(max-width:991px){

@@ -16,15 +16,15 @@ a:hover{
 }
 .sidebar-name{
     font-family: 'Kaushan Script', cursive;
-    margin: 20px 0px;
-    font-size: 1.7rem;
+    margin: 5px 0px 20px;
+    font-size: 2rem;
 }
 .sidebar-name span{
     color: #00F260;
 }
 .sidebar-item{
-    margin-bottom: 6px;
-    padding-top: 6px;
+    margin-bottom: 8px;
+    padding-top: 8px;
     height: 40px;
     font-size: 1.05rem;
     border-radius: 30px;
@@ -32,6 +32,10 @@ a:hover{
 .sidebar-title{
     background-color: #f1f1f1;
     border-radius: 30px;
+}
+.sidebar-resume:hover{
+    background-color: #f1f1f2;
+    color: #000;
 }
 .sidebar-icon{
     width: 25px;
@@ -41,8 +45,11 @@ a:hover{
 }
 .sidebar-contact{
     background-color: #dbdddf;
-    padding: 2px 0px;
-    margin: 20px -15px 0px;
+    padding: 10px 0px;
+    margin: 30px -15px;
+}
+.sidebar-contact>div{
+    padding: 5px 0px;
 }
 .sidebar-email{
     background-image: linear-gradient(to right bottom,#00F260,#0575E6);
@@ -54,9 +61,4 @@ a:hover{
 }
 .sidebar-email:hover{
     transform: scale(1.1);
-}
-.sidebar-resume:hover,
-.sidebar-github:hover{
-    background-color: #f1f1f2;
-    color: #000;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import MyPic from './../assets/images/MyPic.jpeg'
-import './sidebar.css'
-import { BsFacebook, BsInstagram, BsGithub } from "react-icons/bs";
+import './../styles/sidebar.css'
+import { BsFacebook, BsInstagram, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 import {GoLocation} from "react-icons/go"
 import { IconContext } from "react-icons";
 import Resume from './../assets/Resume.pdf'
@@ -19,33 +19,41 @@ export default function Sidebar() {
       <a href={Resume} download="Resume.pdf">
         <div className="sidebar-item sidebar-resume">Download Resume</div>
       </a>
-      <div className="sidebar-social-icons my-2">
-        <a href="https://www.facebook.com/maniteja.katam/" target='__blank' className='me-3'>
-            <IconContext.Provider value={{ className: "sidebar-icon" }}>
+      <div className="sidebar-social-icons my-3">
+        <a href="https://www.facebook.com/maniteja.katam/" target='__blank'>
+            <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
                 <BsFacebook/>
             </IconContext.Provider>
         </a>
         <a href="https://www.instagram.com/___maniteja_/" target='__blank'>
-            <IconContext.Provider value={{ className: "sidebar-icon" }}>
+            <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
                 <BsInstagram/>
+            </IconContext.Provider>
+        </a>
+        <a href="https://twitter.com/Manitej45367298" target='__blank'>
+            <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
+                <BsTwitter/>
+            </IconContext.Provider>
+        </a>
+        <a href="https://www.linkedin.com/in/mani-teja-aaa04721a/" target='__blank'>
+            <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
+                <BsLinkedin/>
+            </IconContext.Provider>
+        </a>
+        <a href="https://github.com/katammaniteja" target='__blank'>
+            <IconContext.Provider value={{ className: "sidebar-icon" }}>
+                <BsGithub/>
             </IconContext.Provider>
         </a>
       </div>
       <div className="sidebar-contact">
-        <div className="sidebar-item sidebar-github" target='__blank'>
-            <a href="https://github.com/katammaniteja">
-                <IconContext.Provider value={{ className: "sidebar-icon me-2" }}>
-                    <BsGithub/>
-                </IconContext.Provider> Github
-            </a>
-        </div>
         <div className="sidebar-location">
-            <IconContext.Provider value={{ className: "sidebar-icon me-2" }}>
+            <IconContext.Provider value={{ className: "sidebar-icon" }}>
                 <GoLocation/>
-            </IconContext.Provider>Rajahmundry, India
+            </IconContext.Provider>Rajahmundry(AP), India
         </div>
-        <div className="sidebar-item">katammaniteja@gmail.com</div>
-        <div className="sidebar-item">+916300438935</div>
+        <div className=''>katammaniteja@gmail.com</div>
+        <div className=''>+916300438935</div>
       </div>
       <div className="sidebar-item sidebar-email" onClick={handleEmail}>Email Me</div>
     </div>
