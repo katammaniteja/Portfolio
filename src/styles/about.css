@@ -8,7 +8,7 @@
 }
 .about-container{
     background-color: #dbdddf;
-    padding: 20px;
+    padding: 25px;
 }
 .about-heading{
     font-size: 25px;
@@ -27,10 +27,12 @@
 .skill-card-icon{
     width: 40px;
     height: 40px;
-    margin: auto;
 }
 .skill-card-body{
     margin-left: 15px;
+}
+.skill-card-title{
+    margin-bottom: 2px;
 }
 .skill-card-content{
     margin: 0;
