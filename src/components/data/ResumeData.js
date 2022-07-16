@@ -19,7 +19,7 @@ const languages = [
       id:3,
       icon:<SiDjango/>,
       name:'Django',
-      level:'45'
+      level:'80'
     },
     {
       id:4,
@@ -31,7 +31,7 @@ const languages = [
       id:5,
       icon:<DiMysql/>,
       name:'MySQL',
-      level:'40'
+      level:'50'
     }
 ]
   
@@ -40,7 +40,7 @@ const tools = [
       id:1,
       icon:<DiVisualstudio/>,
       name:'Visual Studio',
-      level:'44'
+      level:'74'
     },
     {
       id:2,
@@ -52,7 +52,7 @@ const tools = [
       id:3,
       icon:<FaGitAlt/>,
       name:'Git',
-      level:'59'
+      level:'70'
     }
 ]
 

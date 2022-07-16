@@ -20,27 +20,27 @@ export default function Sidebar() {
         <div className="sidebar-item sidebar-resume">Download Resume</div>
       </a>
       <div className="sidebar-social-icons my-3">
-        <a href="https://www.facebook.com/maniteja.katam/" target='__blank'>
+        <a href="https://www.facebook.com/maniteja.katam/" target='_blank' rel="noreferrer">
             <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
                 <BsFacebook/>
             </IconContext.Provider>
         </a>
-        <a href="https://www.instagram.com/___maniteja_/" target='__blank'>
+        <a href="https://www.instagram.com/___maniteja_/" target='_blank' rel="noreferrer">
             <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
                 <BsInstagram/>
             </IconContext.Provider>
         </a>
-        <a href="https://twitter.com/Manitej45367298" target='__blank'>
+        <a href="https://twitter.com/Manitej45367298" target='_blank' rel="noreferrer">
             <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
                 <BsTwitter/>
             </IconContext.Provider>
         </a>
-        <a href="https://www.linkedin.com/in/mani-teja-aaa04721a/" target='__blank'>
+        <a href="https://www.linkedin.com/in/mani-teja-aaa04721a/" target='_blank' rel="noreferrer">
             <IconContext.Provider value={{ className: "sidebar-icon me-3" }}>
                 <BsLinkedin/>
             </IconContext.Provider>
         </a>
-        <a href="https://github.com/katammaniteja" target='__blank'>
+        <a href="https://github.com/katammaniteja" target='_blank' rel="noreferrer">
             <IconContext.Provider value={{ className: "sidebar-icon" }}>
                 <BsGithub/>
             </IconContext.Provider>

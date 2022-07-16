@@ -23,3 +23,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media(max-width:600px){
+    .navbar-active{
+        font-size: 1.5rem;
+    }
+    .navbar-item{
+        font-size: 1rem;
+    }
+}
