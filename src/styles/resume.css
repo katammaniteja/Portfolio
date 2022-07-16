@@ -1,0 +1,38 @@
+.resume{
+    padding-top: 20px;
+}
+.resume-card-heading,
+.resume-language-heading{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #354548;
+}
+.resume-card-body{
+    margin-top: 10px;
+}
+.resume-card-title{
+    font-weight: 700;
+}
+.resume-card-details{
+    font-size: 0.9rem;
+    padding-top: 20px;
+}
+.bar{
+    width: 90%;
+    background-color: #f1f2f3;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.bar-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+.bar-wrapper{
+    background-image: linear-gradient(90deg,#00F260,#0575E6);
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: white;
+    font-size: 0.9rem;
+}

@@ -33,7 +33,7 @@ export default function About() {
   return (
     <div className='about'>
       <h6 className="about-intro">
-        I'm currently pursuing B.Tech from NIT Agartala of CSE department. I'm currently working as a backend developer intern in Shiksha Sopan.
+        I'm currently pursuing B.Tech in Computer Science and Engineering(3rd year) from National Institute of Technology, Agartala. I'm currently working as a backend developer intern in Shiksha Sopan.
       </h6>
       <div className="container about-container">
         <h6 className="about-heading">What I offer</h6>
