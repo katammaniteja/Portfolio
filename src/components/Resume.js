@@ -1,59 +1,29 @@
 import React from 'react'
 import Skillbar from './Skillbar'
 import './../styles/resume.css'
-import { DiPython,DiJavascript,DiReact,DiVisualstudio,DiMysql } from "react-icons/di";
-import {SiDjango,SiPostman} from "react-icons/si"
-import {FaGitAlt} from "react-icons/fa"
+import { motion } from 'framer-motion';
+import { languages,tools } from './data/ResumeData';
 
-const languages = [
-  {
-    icon:<DiPython/>,
-    name:'Python',
-    level:'80'
-  },
-  {
-    icon:<DiJavascript/>,
-    name:'Javascript',
-    level:'70'
-  },
-  {
-    icon:<SiDjango/>,
-    name:'Django',
-    level:'45'
-  },
-  {
-    icon:<DiReact/>,
-    name:'Reactjs',
-    level:'65'
-  },
-  {
-    icon:<DiMysql/>,
-    name:'MySQL',
-    level:'40'
-  }
-]
-
-const tools = [
-  {
-    icon:<DiVisualstudio/>,
-    name:'Visual Studio',
-    level:'44'
-  },
-  {
-    icon:<SiPostman/>,
-    name:'Postman',
-    level:'67'
-  },
-  {
-    icon:<FaGitAlt/>,
-    name:'Git',
-    level:'59'
-  }
-]
 
 export default function Resume() {
+  const resume_variant = {
+    hidden:{
+      opacity:0
+    },
+    visible:{
+      opacity:1,
+      transition:{
+        delay:0.2,duration:0.6
+      }
+    }
+  }
+
   return (
-    <div className="container resume">
+    <motion.div className="container resume"
+      variants={resume_variant}
+      initial='hidden'
+      animate='visible'
+    >
       <div className="row">
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card-heading">Education</h4>
@@ -80,7 +50,7 @@ export default function Resume() {
           <div className="resume-language-body">
             {
               languages.map((language)=>{
-                return <Skillbar value={language} />;
+                return <Skillbar key={language.id} value={language} />;
               })
             }
           </div>
@@ -92,12 +62,12 @@ export default function Resume() {
           <div className="resume-language-body">
             {
               tools.map((tool)=>{
-                return <Skillbar value={tool} />;
+                return <Skillbar key={tool.id} value={tool} />;
               })
             }
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }

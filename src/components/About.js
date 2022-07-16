@@ -1,37 +1,28 @@
 import React from 'react'
 import Skillcard from './Skillcard'
 import './../styles/about.css'
-import algo from './../assets/images/algo.svg'
-import api from './../assets/images/api.svg'
-import backend from './../assets/images/backend.svg'
-import frontend from './../assets/images/frontend.svg'
-
-const skills = [
-  {
-    icon:frontend,
-    title: "Frontend Development" ,
-    about: "I can build beautiful and scalable single page applications using HTML, CSS and Reactjs"
-  },
-  {
-    icon:backend,
-    title: "Backend Development" ,
-    about: "I can build server-side appications using django and can handle relational databases like MySQL etc."
-  },
-  {
-    icon:api,
-    title: "API Development" ,
-    about: "I can develop robust REST APIs using Django REST Framework(DRF)."
-  },
-  {
-    icon:algo,
-    title: "Competitive Coder" ,
-    about: "A quite regular problem solver in Leetcode and GeeksforGeeks."
-  }
-]
+import { motion } from 'framer-motion';
+import skills from './data/AboutData'
 
 export default function About() {
+  const about_variant = {
+    hidden:{
+      opacity:0
+    },
+    visible:{
+      opacity:1,
+      transition:{
+        delay:0.2,duration:0.6
+      }
+    }
+  }
+
   return (
-    <div className='about'>
+    <motion.div className='about'
+      variants={about_variant}
+      initial='hidden'
+      animate='visible'
+    >
       <h6 className="about-intro">
         I'm currently pursuing B.Tech in Computer Science and Engineering(3rd year) from National Institute of Technology, Agartala. I'm currently working as a backend developer intern in Shiksha Sopan.
       </h6>
@@ -40,11 +31,11 @@ export default function About() {
         <div className="row">
           {
             skills.map((skill)=>{
-              return <Skillcard skill={skill} />
+              return <Skillcard key={skill.id} skill={skill} />
             })
           }
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }

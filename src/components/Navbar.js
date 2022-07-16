@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import './../styles/navbar.css'
+import { motion } from 'framer-motion';
 
 export default function Navbar() {
     const [active, setactive] = useState('About');
@@ -14,8 +15,26 @@ export default function Navbar() {
         else if(currUrl.endsWith('/projects')) setactive('Projects');
     },[active])
 
+    const navbar_variant = {
+      hidden:{
+        y:'-30vh',
+        opacity:0
+      },
+      visible:{
+        y:0,
+        opacity:1,
+        transition:{
+          delay:0.2,duration:0.7,type:'spring'
+        }
+      }
+    }
+
   return (
-    <div className='navbar'>
+    <motion.div className='navbar'
+      variants={navbar_variant}
+      initial='hidden'
+      animate='visible'
+    >
       <div className="navbar-active">
         {active}
       </div>
@@ -24,6 +43,6 @@ export default function Navbar() {
         { active !== 'Resume' && <Link to="/resume"><div className="navbar-item" onClick={()=>setactive('Resume')}>Resume</div></Link> }
         { active !== 'Projects' && <Link to="/projects"><div className="navbar-item" onClick={()=>setactive('Projects')}>Projects</div></Link> }
       </div>
-    </div>
+    </motion.div>
   )
 }
