@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&family=Roboto&display=swap');@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kaushan+Script&family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap');
 
 body{
     background-image: linear-gradient(to right bottom,#00F260,#0575E6);

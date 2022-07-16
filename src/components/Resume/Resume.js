@@ -1,8 +1,8 @@
 import React from 'react'
 import Skillbar from './Skillbar'
-import './../styles/resume.css'
+import './resume.css'
 import { motion } from 'framer-motion';
-import { languages,tools } from './data/ResumeData';
+import { languages,tools } from './../data/ResumeData';
 
 
 export default function Resume() {
@@ -13,7 +13,7 @@ export default function Resume() {
     visible:{
       opacity:1,
       transition:{
-        delay:0.2,duration:0.6
+        delay:0.1,duration:0.9
       }
     }
   }

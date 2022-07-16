@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div className="container projects">
-      
-    </div>
+    <h3>Under Construction</h3>
   )
 }

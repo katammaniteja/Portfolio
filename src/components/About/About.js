@@ -1,8 +1,8 @@
 import React from 'react'
 import Skillcard from './Skillcard'
-import './../styles/about.css'
+import './about.css'
 import { motion } from 'framer-motion';
-import skills from './data/AboutData'
+import skills from './../data/AboutData'
 
 export default function About() {
   const about_variant = {
@@ -12,7 +12,7 @@ export default function About() {
     visible:{
       opacity:1,
       transition:{
-        delay:0.2,duration:0.6
+        delay:0.1,duration:0.9
       }
     }
   }

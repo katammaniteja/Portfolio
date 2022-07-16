@@ -1,10 +1,10 @@
 import React from 'react'
-import Sidebar from './components/Sidebar'
-import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar/Sidebar'
+import Navbar from './components/Navbar/Navbar'
 import {Route, Routes, BrowserRouter} from 'react-router-dom'
-import About from './components/About'
-import Resume from './components/Resume'
-import Projects from './components/Projects'
+import About from './components/About/About'
+import Resume from './components/Resume/Resume'
+import Projects from './components/Projects/Projects'
 import { motion } from 'framer-motion';
 
 export default function App() {

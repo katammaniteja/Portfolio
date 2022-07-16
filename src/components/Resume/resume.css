@@ -20,7 +20,6 @@
 .resume-card-details{
     font-size: 0.9rem;
     padding-top: 10px;
-    /* margin: 0; */
 }
 .bar{
     width: 90%;
@@ -39,4 +38,17 @@
     padding: 4px 14px;
     color: white;
     font-size: 0.9rem;
+}
+@media(max-width:600px){
+    .resume{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .resume-card-heading,
+    .resume-language-heading{
+        font-size:1.4rem;
+    }
+    .resume-card-title{
+        font-size: 1.05rem;
+    }
 }

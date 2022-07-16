@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
-import './../styles/navbar.css'
+import './navbar.css'
 import { motion } from 'framer-motion';
 
 export default function Navbar() {

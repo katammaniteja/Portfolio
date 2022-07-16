@@ -1,10 +1,10 @@
 import React from 'react'
-import MyPic from './../assets/images/MyPic.jpeg'
-import './../styles/sidebar.css'
+import MyPic from './../../assets/images/MyPic.jpeg'
+import './sidebar.css'
 import { BsFacebook, BsInstagram, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 import {GoLocation} from "react-icons/go"
 import { IconContext } from "react-icons";
-import Resume from './../assets/Resume.pdf'
+import Resume from './../../assets/Resume.pdf'
 
 export default function Sidebar() {
     const handleEmail = ()=>{
