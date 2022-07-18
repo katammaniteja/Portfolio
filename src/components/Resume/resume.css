@@ -11,7 +11,7 @@
     margin-top: 10px;
 }
 .resume-card-title{
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 4px;
 }
 .resume-card-name{
@@ -51,4 +51,5 @@
     .resume-card-title{
         font-size: 1.05rem;
     }
+
 }

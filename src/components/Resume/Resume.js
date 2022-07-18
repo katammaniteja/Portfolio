@@ -25,7 +25,7 @@ export default function Resume() {
       animate='visible'
     >
       <div className="row">
-        <div className="col-lg-6 resume-card">
+        <div className="col-lg-6 resume-card mb-3">
           <h4 className="resume-card-heading">Education</h4>
           <div className="resume-card-body">
             <h5 className="resume-card-title">NIT Agartala(2020-2024)</h5>
