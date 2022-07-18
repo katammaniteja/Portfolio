@@ -40,10 +40,6 @@
     font-size: 0.9rem;
 }
 @media(max-width:600px){
-    .resume{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
     .resume-card-heading,
     .resume-language-heading{
         font-size:1.4rem;
@@ -51,5 +47,4 @@
     .resume-card-title{
         font-size: 1.05rem;
     }
-
 }

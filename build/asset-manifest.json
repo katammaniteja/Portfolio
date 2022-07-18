@@ -1,28 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6021d1e8.css",
-    "main.js": "/static/js/main.aed0a295.js",
+    "main.css": "/static/css/main.8ce60027.css",
+    "main.js": "/static/js/main.6c91c625.js",
     "static/media/Blogger.png": "/static/media/Blogger.7bf862affedc45effc93.png",
     "static/media/portfolio.png": "/static/media/portfolio.40fdc2e24a8268f646eb.png",
     "static/media/MyPic.jpeg": "/static/media/MyPic.fc0b8a0856de63cbc33b.jpeg",
     "static/media/Resume.pdf": "/static/media/Resume.4508a5b88f8ca1608e9e.pdf",
     "static/media/Ecommerce.jpg": "/static/media/Ecommerce.c367a09c3c19ce756af6.jpg",
-    "static/media/blinking.JPG": "/static/media/blinking.01ec3f4fa4fadba218d6.JPG",
     "static/media/Weather.png": "/static/media/Weather.f387ec7d93a1b5c6f020.png",
-    "static/media/hardware_store.jpg": "/static/media/hardware_store.6c954f4c07d350dd4fd4.jpg",
     "static/media/Drumkits.png": "/static/media/Drumkits.9d402102f72544fb6f7c.png",
-    "static/media/color_classification.jpg": "/static/media/color_classification.870de8517be36fa4127c.jpg",
-    "static/media/new_year.jpg": "/static/media/new_year.05b605b8bdbd0ab7df7b.jpg",
     "static/media/backend.svg": "/static/media/backend.9d561509fcd9741370040c802dcb7558.svg",
     "static/media/frontend.svg": "/static/media/frontend.1ad2727593f269a80b010362a16a9c93.svg",
     "static/media/algo.svg": "/static/media/algo.2f18a3f1a4cf458cb48d316f7fe19fd7.svg",
     "static/media/api.svg": "/static/media/api.6531cbd49461abbf3b284ea3b402a3e7.svg",
     "index.html": "/index.html",
-    "main.6021d1e8.css.map": "/static/css/main.6021d1e8.css.map",
-    "main.aed0a295.js.map": "/static/js/main.aed0a295.js.map"
+    "main.8ce60027.css.map": "/static/css/main.8ce60027.css.map",
+    "main.6c91c625.js.map": "/static/js/main.6c91c625.js.map"
   },
   "entrypoints": [
-    "static/css/main.6021d1e8.css",
-    "static/js/main.aed0a295.js"
+    "static/css/main.8ce60027.css",
+    "static/js/main.6c91c625.js"
   ]
 }

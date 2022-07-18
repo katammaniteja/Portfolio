@@ -5,7 +5,12 @@ body{
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
 }
-
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to right bottom,#00F260,#0575E6);
+}
 .app-container{
     padding-top: 50px;
 }

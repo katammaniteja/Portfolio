@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import data_projects from './../data/projects_data'
 import ProjectCard from './ProjectCard';
 import './projects.css'
 import { motion } from 'framer-motion';
 
 export default function Projects() {
+  const [projects,setprojects] = useState(data_projects);
+  const [active,setactive] = useState('all')
+
+  const HandleFilter = (name)=>{
+    setprojects(data_projects.filter((project)=>{
+      return project.category.includes(name);
+    }))
+    setactive(name);
+  }
+
   const projects_variant = {
     hidden:{
       opacity:0
@@ -23,9 +33,15 @@ export default function Projects() {
       initial='hidden'
       animate='visible'
     >
+      <div className="projects-navbar">
+        <div className={active === 'all' && "projects-navbar-active"} onClick={()=>{setprojects(data_projects);setactive('all');}}>All</div>
+        <div className={active === 'react' && "projects-navbar-active"} onClick={()=>HandleFilter('react')}>React</div>
+        <div className={active === 'django' && "projects-navbar-active"} onClick={()=>HandleFilter('django')}>Django</div>
+        <div className={active === 'vanilla' && "projects-navbar-active"} onClick={()=>HandleFilter('vanilla')}>Vanilla JS</div>
+      </div>
       <div className="row">
         {
-          data_projects.map((project)=>{
+          projects.map((project)=>{
             return <ProjectCard key={project.name} project={project}/>;
           })
         }

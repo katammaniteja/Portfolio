@@ -2,7 +2,6 @@ import React from 'react'
 import MyPic from './../../assets/images/MyPic.jpeg'
 import './sidebar.css'
 import { BsFacebook, BsInstagram, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
-import {GoLocation} from "react-icons/go"
 import { IconContext } from "react-icons";
 import Resume from './../../assets/Resume.pdf'
 
@@ -48,9 +47,7 @@ export default function Sidebar() {
       </div>
       <div className="sidebar-contact">
         <div className="sidebar-location">
-            <IconContext.Provider value={{ className: "sidebar-icon" }}>
-                <GoLocation/>
-            </IconContext.Provider>Rajahmundry(AP), India
+            Rajahmundry(AP), India
         </div>
         <div className=''>katammaniteja@gmail.com</div>
         <div className=''>+916300438935</div>
