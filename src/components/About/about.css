@@ -39,3 +39,12 @@
     font-size: 0.9rem;
     color: #6e7e91;
 }
+@media(max-width:600px){
+    .skill-card{
+        margin: 10px 0px;
+        padding: 10px 5px;
+    }
+    .about-heading{
+        margin-left: 0px;
+    }
+}

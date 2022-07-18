@@ -3,9 +3,8 @@
 }
 .resume-card-heading,
 .resume-language-heading{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-left: 10px;
     color: #354548;
 }
 .resume-card-body{
@@ -13,13 +12,14 @@
 }
 .resume-card-title{
     font-weight: 700;
+    margin-bottom: 4px;
 }
 .resume-card-name{
     margin: 0;
 }
 .resume-card-details{
     font-size: 0.9rem;
-    padding-top: 10px;
+    color: #6e7e91;
 }
 .bar{
     width: 90%;
