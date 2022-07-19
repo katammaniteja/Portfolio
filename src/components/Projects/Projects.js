@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import data_projects from './../data/projects_data'
+import data_projects from './../Data/projects_data'
 import ProjectCard from './ProjectCard';
 import './projects.css'
 import { motion } from 'framer-motion';

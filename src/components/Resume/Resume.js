@@ -2,7 +2,8 @@ import React from 'react'
 import Skillbar from './Skillbar'
 import './resume.css'
 import { motion } from 'framer-motion';
-import { languages,tools } from './../data/ResumeData';
+import { languages,tools,education,experience } from './../Data/resume_data';
+import ResumeCard from './ResumeCard';
 
 
 export default function Resume() {
@@ -27,22 +28,19 @@ export default function Resume() {
       <div className="row">
         <div className="col-lg-6 resume-card mb-3">
           <h4 className="resume-card-heading">Education</h4>
-          <div className="resume-card-body">
-            <h5 className="resume-card-title">NIT Agartala(2020-2024)</h5>
-            <p className="resume-card-name">Computer Science Engineering</p>
-          </div>
-          <div className="resume-card-body">
-            <h5 className="resume-card-title">Tirumala Junior College(2018-2020)</h5>
-            <p className="resume-card-name">Intermediate(MPC)</p>
-          </div>
+          {
+            education.map((data)=>{
+              return <ResumeCard key={data.id} data={data}/>
+            })
+          }
         </div>
         <div className="col-lg-6 resume-card">
           <h4 className="resume-card-heading">Experience</h4>
-          <div className="resume-card-body">
-            <h5 className="resume-card-title">Shiksha Sopan-IIT Kanpur</h5>
-            <p className="resume-card-name">Backend Developer Intern(Feb 2022-Present)</p>
-            <p className="resume-card-details">Working as a back-end developer in the core team of Prof H.C Verma sir where we built Discussion Forum and NAEST Examination Portal which is an annual online competition which assesses and nurtures keen observational skills, experimental skills, and analytical skills of a student in physics.</p>
-          </div>
+          {
+            experience.map((data)=>{
+              return <ResumeCard key={data.id} data={data}/>
+            })
+          }
         </div>
       </div>
       <div className="row">

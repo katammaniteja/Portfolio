@@ -40,9 +40,10 @@ export default function App() {
                 <div className="app-main-content">
                   <Navbar/>
                   <Routes>
-                    <Route exact path="/" element={<About/>}/>
+                    <Route path="/" element={<About/>}/>
                     <Route exact path="/resume" element={<Resume/>}/>
                     <Route exact path="/projects" element={<Projects/>}/>
+                    <Route path='*' element={<About/>}/>
                     {/* <Navigate to="/"/> */}
                   </Routes>
                 </div>

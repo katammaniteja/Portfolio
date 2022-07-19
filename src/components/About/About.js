@@ -2,7 +2,7 @@ import React from 'react'
 import Skillcard from './Skillcard'
 import './about.css'
 import { motion } from 'framer-motion';
-import skills from './../data/AboutData'
+import skills from './../Data/about_data'
 
 export default function About() {
   const about_variant = {
