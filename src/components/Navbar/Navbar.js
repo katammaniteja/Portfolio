@@ -1,19 +1,20 @@
 import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './navbar.css'
 import { motion } from 'framer-motion';
 
 export default function Navbar() {
     const [active, setactive] = useState('About');
+    const url=useLocation();
 
     useEffect(()=>{
-        const currUrl = window.location.href;
-        if(currUrl.endsWith('/')) setactive('About');
-        else if(currUrl.endsWith('/resume')) setactive('Resume');
-        else if(currUrl.endsWith('/projects')) setactive('Projects');
-    },[active])
+        const {pathname} = url;
+        if(pathname.endsWith('/')) setactive('About');
+        else if(pathname.endsWith('/resume')) setactive('Resume');
+        else if(pathname.endsWith('/projects')) setactive('Projects');
+    },[url])
 
     const navbar_variant = {
       hidden:{
