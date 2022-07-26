@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.3ac66b19.css",
-    "main.js": "/static/js/main.e4075cf5.js",
+    "main.js": "/static/js/main.6d820925.js",
     "static/media/Blogger.png": "/static/media/Blogger.7bf862affedc45effc93.png",
     "static/media/portfolio.png": "/static/media/portfolio.40fdc2e24a8268f646eb.png",
     "static/media/MyPic.jpeg": "/static/media/MyPic.fc0b8a0856de63cbc33b.jpeg",
-    "static/media/Resume.pdf": "/static/media/Resume.4508a5b88f8ca1608e9e.pdf",
     "static/media/Ecommerce.jpg": "/static/media/Ecommerce.c367a09c3c19ce756af6.jpg",
     "static/media/Weather.png": "/static/media/Weather.f387ec7d93a1b5c6f020.png",
     "static/media/Drumkits.png": "/static/media/Drumkits.9d402102f72544fb6f7c.png",
@@ -15,10 +14,10 @@
     "static/media/api.svg": "/static/media/api.6531cbd49461abbf3b284ea3b402a3e7.svg",
     "index.html": "/index.html",
     "main.3ac66b19.css.map": "/static/css/main.3ac66b19.css.map",
-    "main.e4075cf5.js.map": "/static/js/main.e4075cf5.js.map"
+    "main.6d820925.js.map": "/static/js/main.6d820925.js.map"
   },
   "entrypoints": [
     "static/css/main.3ac66b19.css",
-    "static/js/main.e4075cf5.js"
+    "static/js/main.6d820925.js"
   ]
 }
