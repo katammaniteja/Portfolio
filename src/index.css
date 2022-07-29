@@ -1,43 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap");
 
-body{
-    background-image: linear-gradient(to right bottom,#00F260,#0575E6);
-    background-attachment: fixed;
-    font-family: 'Roboto', sans-serif;
+body {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
 }
-::-webkit-scrollbar{
-    width: 7px;
+::-webkit-scrollbar {
+  width: 7px;
 }
-::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(to right bottom,#00F260,#0575E6);
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
 }
-.app-container{
-    padding-top: 50px;
-}
-
-.app-row{
-    height: 85vh;
+.app-container {
+  padding-top: 50px;
 }
 
-.app-sidebar{
-    background-color: #fff;
-    height: 100%;
-    border-radius: 20px;
-    padding: 25px 15px;
-    box-shadow: 0px 0px 10px black;
-    text-align: center;
-}
-.app-main-content{
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 25px 15px;
-    box-shadow: 0px 0px 10px black;
-    height: 100%;
+.app-row {
+  height: 85vh;
 }
 
-@media(max-width:991px){
-    .app-main-content{
-        margin: 30px 0px;
-        height: auto;
-    }
+.app-sidebar {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0px 0px 10px black;
+  text-align: center;
+}
+.app-main-content {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0px 0px 10px black;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .app-main-content {
+    margin: 30px 0px;
+    height: auto;
+  }
 }

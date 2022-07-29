@@ -1,54 +1,54 @@
-.resume{
-    padding-top: 20px;
+.resume {
+  padding-top: 20px;
 }
 .resume-card-heading,
-.resume-language-heading{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #354548;
+.resume-language-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #354548;
 }
-.resume-card-body{
-    margin-top: 10px;
+.resume-card-body {
+  margin-top: 10px;
 }
-.resume-card-title{
-    font-weight: 600;
-    margin-bottom: 4px;
+.resume-card-title {
+  font-weight: 600;
+  margin-bottom: 4px;
 }
-.resume-card-name{
-    margin: 0;
+.resume-card-name {
+  margin: 0;
 }
-.resume-card-details{
-    font-size: 0.9rem;
-    color: #6e7e91;
+.resume-card-details {
+  font-size: 0.9rem;
+  color: #6e7e91;
 }
-.bar{
-    width: 90%;
-    background-color: #f1f2f3;
-    border-radius: 20px;
-    margin-bottom: 10px;
+.bar {
+  width: 90%;
+  background-color: #f1f2f3;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
-.bar-icon{
-    width: 20px;
-    height: 20px;
-    margin-right: 2px;
+.bar-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
 }
-.bar-wrapper{
-    background-image: linear-gradient(90deg,#00F260,#0575E6);
-    border-radius: 20px;
-    padding: 4px 14px;
-    color: white;
-    font-size: 0.9rem;
+.bar-wrapper {
+  background-image: linear-gradient(90deg, #00f260, #0575e6);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: white;
+  font-size: 0.9rem;
 }
-@media(max-width:600px){
-    .resume{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .resume-card-heading,
-    .resume-language-heading{
-        font-size:1.4rem;
-    }
-    .resume-card-title{
-        font-size: 1.05rem;
-    }
+@media (max-width: 600px) {
+  .resume {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .resume-card-heading,
+  .resume-language-heading {
+    font-size: 1.4rem;
+  }
+  .resume-card-title {
+    font-size: 1.05rem;
+  }
 }

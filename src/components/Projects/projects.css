@@ -1,50 +1,50 @@
-.projects{
-    height: 65vh;
-    overflow-y: auto;
-    padding-top: 15px;
+.projects {
+  height: 65vh;
+  overflow-y: auto;
+  padding-top: 15px;
 }
-.projects-navbar{
-    display: flex;
-    margin-bottom: 15px;
+.projects-navbar {
+  display: flex;
+  margin-bottom: 15px;
 }
-.projects-navbar>div{
-    margin: 0px 8px;
-    cursor: pointer;
-    font-size: 1rem;
+.projects-navbar > div {
+  margin: 0px 8px;
+  cursor: pointer;
+  font-size: 1rem;
 }
-.project-card-wrapper{
-    margin: 10px 0px;
-    width: 100%;
-    height: 100%;
+.project-card-wrapper {
+  margin: 10px 0px;
+  width: 100%;
+  height: 100%;
 }
-.project-card-image{
-    width: 100%;
-    height: 80%;
-    border-radius: 30px;
-    transition: 0.3s linear;
+.project-card-image {
+  width: 100%;
+  height: 80%;
+  border-radius: 30px;
+  transition: 0.3s linear;
 }
-.project-card-image:hover{
-    transform: scale(1.03);
+.project-card-image:hover {
+  transform: scale(1.03);
 }
-.project-card-icon{
-    height: 20px;
-    width: 20px;
-    color: #00F260;
-    margin-top: -3px;
-    margin-right: 3px;
+.project-card-icon {
+  height: 20px;
+  width: 20px;
+  color: #00f260;
+  margin-top: -3px;
+  margin-right: 3px;
 }
-.project-card-title{
-    margin-top: 12px;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.project-card-title {
+  margin-top: 12px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.projects-navbar-active{
-    color: #00F260;
+.projects-navbar-active {
+  color: #00f260;
 }
-@media(max-width:600px){
-    .projects{
-        height: 100vh;
-    }
+@media (max-width: 600px) {
+  .projects {
+    height: 100vh;
+  }
 }

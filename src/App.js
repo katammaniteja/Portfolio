@@ -11,7 +11,7 @@ export default function App() {
   const sidebar_variant = {
     hidden:{
       x:'-10vw',
-      opacity:0
+      opacity:0 
     },
     visible:{
       x:0,
