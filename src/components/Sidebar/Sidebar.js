@@ -1,9 +1,8 @@
 import React from "react";
 import MyPic from "./../../assets/images/MyPic.jpeg";
 import "./sidebar.css";
+import {SiLeetcode} from "react-icons/si"
 import {
-  BsFacebook,
-  BsInstagram,
   BsGithub,
   BsTwitter,
   BsLinkedin,
@@ -31,18 +30,11 @@ export default function Sidebar() {
       </a>
       <div className="sidebar-social-icons my-3">
         <a
-          href="https://www.facebook.com/maniteja.katam/"
+          href="https://leetcode.com/kvdmt2401/"
           target="_blank"
           rel="noreferrer"
         >
-          <BsFacebook className="sidebar-icon me-3" />
-        </a>
-        <a
-          href="https://www.instagram.com/___maniteja_/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsInstagram className="sidebar-icon me-3" />
+          <SiLeetcode className="sidebar-icon me-3" />
         </a>
         <a
           href="https://twitter.com/Manitej45367298"

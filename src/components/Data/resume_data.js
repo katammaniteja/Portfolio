@@ -81,9 +81,9 @@ const experience = [
   {
     id: 1,
     title: "Shiksha Sopan-IIT Kanpur",
-    name: "Backend Developer Intern(Feb 2022-Present)",
+    name: "Backend Developer Intern(Feb 2022-July 2022)",
     details:
-      "Working as a back-end developer in the core team of Prof H.C Verma sir where we built Discussion Forum and NAEST Examination Portal which is an annual online competition which assesses and nurtures keen observational skills, experimental skills, and analytical skills of a student in physics.",
+      "Worked as a back-end developer in the core team of Prof H.C Verma sir where we built Discussion Forum and NAEST Examination Portal which is an annual online competition which assesses and nurtures keen observational skills, experimental skills, and analytical skills of a student in physics.",
   },
 ];
 

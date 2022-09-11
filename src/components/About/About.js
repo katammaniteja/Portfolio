@@ -27,8 +27,7 @@ export default function About() {
     >
       <h6 className="about-intro">
         I'm currently pursuing B.Tech in Computer Science and Engineering(3rd
-        year) from National Institute of Technology, Agartala. I'm currently
-        working as a backend developer intern in Shiksha Sopan.
+        year) from National Institute of Technology, Agartala. I have worked in Shiksha Sopan - NGO of Prof. HC Verma Sir as a backend developer for 6 months.
       </h6>
       <div className="container about-container">
         <h6 className="about-heading">What I offer</h6>
